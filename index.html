@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="m-5 rounded " style="background-color: #cacccf;" >
+      <div>
+        <div class="container mt-5">
+          <div class="row justify-content-start">
+            <div class="col-md-4 flex">
+              <div class="profile-container">
+                <img
+                  src="https://www.shutterstock.com/image-photo/soccer-sports-tired-man-athlete-600nw-2216871657.jpg"
+                  alt="Profile Picture"
+                  class="img-fluid profile-pic"
+                />
+                <div class="level-banner">1</div>
+              </div>
+
+              <div class="">
+                <div class="card-body">
+                  <h2 class="card-title" >Jason Anderson</h2>
+                  <p class="card-text" style="font-size: xx-large;font-weight: bold;">59.8% <span style="color: blue; font-size: x-large;">40/55</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+ 
+class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card" style="background: white; margin-left: 1px;">
+          
+          <div class="card-body" >
+           
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th class="bg-primary text-white " style="font-size: x-large; padding: 1rem;">Total Plays</th>
+                  <th class="bg-primary text-white " style="font-size: x-large; padding: 1rem">Production Plays</th>
+                  <th class="bg-primary text-white " style="font-size: x-large; padding: 1rem">Non-Production Plays</th>
+                  <th class="bg-primary text-white " style="font-size: x-large; padding: 1rem">Snaps Per Impact</th>
+                  <th  class="bg-primary text-white " style="font-size: x-large; padding: 1rem">Avg. Impact Per Play</th>
+                </tr>
+              </thead>
+              <tbody >
+                <tr>
+                    <td style="display: flex; align-items: center; justify-content: center;" >  <img src="data:image/png;base64,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"  alt="" style=" width: 8rem;"></td>
+                     <td > <img style="width: 8rem; margin-top: 70px; margin-left: 70px;" src="https://www.svgrepo.com/show/39163/one-shoe.svg" alt=""  ></td>
+                     <td style="display: flex; justify-content: center; align-items: center;"> <img style="width: 8rem;margin-right: -30px;" src="https://www.svgrepo.com/show/58634/shoe-side.svg" alt=""></td>
+                       <td> <img style="width: 10rem; margin-top: 40px; margin-left: 70px;" src="https://static.thenounproject.com/png/1984656-200.png" alt=""></td>
+                          <td style="display: flex; justify-content: center; align-items: center;"> <img  style="width: 12rem;" src="https://static.thenounproject.com/png/1984656-200.png" alt=""></td>
+                </tr>
+                <tr>
+                  <td style="color: blue;font-size: 35px;text-align: center; font-weight: bold;"  >346</td>
+                  <td style="color: blue;font-size: 35px;text-align: center; font-weight: bold;" >39</td>
+                  <td style="color: blue;font-size: 35px;text-align: center; font-weight: bold;" >55</td>
+                  <td style="color: blue;font-size: 35px;text-align: center; font-weight: bold;" >6.3</td>
+                  <td style="color: blue;font-size: 35px;text-align: center; font-weight: bold;" >8.7%</td>
+                </tr>
+              </tbody>
+            </table>
+            
+            
+        
+</div>
+<hr class="mx-5 ">
+<div>
+    <div  class="m-5 ">
+    
+        <div class="one d-flex" style="background-color: #F5F5F5;" >
+            <div class="bg-white p-4" style="font-weight: bold; width: 17rem; margin: 0.4rem; font-size: x-large; ">
+                At(4)</div>
+            <div type=" " class="bg-white p-4"  style="font-weight: bold; width: 17rem; margin: 0.4rem; font-size: x-large;">
+                tk(23)</div>
+            <div type=" " class="bg-white p-4"  style="font-weight: bold; width: 17rem; margin: 0.4rem; font-size: x-large;">
+                SNACK(3)</div>
+            <div type=" " class="bg-white p-4"  style="font-weight: bold; width: 17rem; margin: 0.4rem;  font-size: x-large;">
+                MTP -(19)</div>
+            <div type=" " class="bg-white p-4"  style="font-weight: bold; width: 17rem; margin: 0.4rem; font-size: x-large;">
+                FR -(19)</div>
+            <div type=" " class="bg-white p-4"  style="font-weight: bold; width: 17rem; margin: 0.4rem; font-size: x-large;">
+                MT (19)</div>
+            <div type=" " class="bg-white p-4"  style="font-weight: bold; width: 17rem; margin: 0.4rem; font-size: x-large;">
+                MTP +(3)</div>
+            <div type=" " class="bg-white p-4"  style="font-weight: bold; width: 17rem; margin: 0.4rem; font-size: x-large;">
+                BUST (1)</div> 
+                <div>
+            
+           
+    </div>
+      
+    <div>
+        
+    </div>
+    </div>
+    <div class="d-flex" style="background-color: #F5F5F5;">
+        <div type=" " class="bg-white p-4"  style="font-weight: bold; width: 17rem; margin: 0.4rem; font-size: x-large; ">
+            CF(4)</div>
+        <div type=" " class="bg-white p-4"  style="font-weight: bold; width: 17rem; margin: 0.4rem; font-size: x-large; ">
+        PENALTY(4)</div>
+        <div type=" " class="bg-white p-4"  style="font-weight: bold; width: 17rem; margin: 0.4rem; font-size: x-large; ">
+            INT(1)</div>
+       
+    </div>
+</div>
+
+    
+</div>
+
+  
+</div>
+    </div>
+  </body>
+</html>

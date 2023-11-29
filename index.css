@@ -1,0 +1,86 @@
+.profile-container {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+  }
+
+  .profile-pic {
+    width: 100%;
+    height: 100%;
+    border: 8px solid red; /* Adjust border thickness and color */
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .level-banner {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 30px;
+    height: 30px;
+    background-color: black; /* Adjust banner color */
+    color: yellow;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.card{
+    margin-left: -20rem;
+}
+
+.list-group {
+    border-radius: 10px;
+    margin-bottom: 0;
+  }
+  
+  .list-group-item {
+    padding: 40px;
+    border-radius: 10px;
+    width: 10rem;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #333;
+  }
+  
+ 
+  
+  .list-group {
+    margin: 0 auto;
+  }
+  .list-group {
+    border-radius: 10px;
+    margin-bottom: 0;
+  }
+  
+  .list-group-item {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .list-group-item:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .list-group-item:active {
+    background-color: #ccc;
+  }
+  .textl{
+    font-weight: bold;
+    background-color: #f5f5f5;
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+    
+  }
